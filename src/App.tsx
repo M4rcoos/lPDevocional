@@ -21,6 +21,10 @@ function App() {
       <img src="src/assets/createdBy.png"  width={300} height={200}alt="ticket" />
       </C.Footer>
     </C.Content>
+       <C.Enquete>
+       <img src="src/assets/enquete00.png" alt="tres corações"  />
+       <img src="src/assets/enquete01.png" alt="tres corações" />
+       </C.Enquete>
     </C.Container>
   )
 }
