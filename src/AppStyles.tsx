@@ -49,4 +49,19 @@ font-size: 5.6rem;
 text-align: center;
 color:#000;
 `
+export const TextParabolas = styled.div`
+    display:flex;
+    gap:32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center ;
 
+`
+
+export const Motivos = styled.div`
+    display:flex;
+    gap:16px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+`
