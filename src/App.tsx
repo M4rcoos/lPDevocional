@@ -45,7 +45,6 @@ function App() {
        </C.Motivos>
        <C.Organization>
        <img src="src/assets/space.png"/>
-       <img src="src/assets/03-removebg-preview.png"/>
        </C.Organization>
     </C.Container>
   )
