@@ -1,4 +1,9 @@
 import styled from 'styled-components'
+import fire from "./assets/foguinho.png"
+import flash from "./assets/raio.png"
+import heart from "./assets/tres-coracoes.png"
+import createdBy from "./assets/createdBy.png"
+import biblia from "./assets/biblia.png"
 
 
 export const Container = styled.div`
@@ -7,6 +12,7 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 padding: 34px;
+height:100%
 `
 export const Content = styled.main`
  display:flex;
@@ -14,6 +20,9 @@ export const Content = styled.main`
  align-items:center;
  justify-content:center;
  max-width: 64.375rem;
+ @media (max-width: 1200px) {
+  max-width: 44.375rem;
+}
 `
 export const Header = styled.div`
  display:flex;
@@ -64,4 +73,63 @@ export const Motivos = styled.div`
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+@media (max-width: 1200px) {
+  font-size: 3.6rem;
+}
+@media (max-width: 600px) {
+  font-size: 2.6rem;
+max-width: 400px;
+
+}
+`
+export const ImageFire = styled.img.attrs({
+  src: `${fire}`,
+  width:120,
+}
+)`
+@media (max-width: 1200px) {
+  max-width: 80px;
+
+}
+`
+export const ImageFlash = styled.img.attrs({
+  src: `${flash}`,
+  width:120,
+
+})`
+@media (max-width: 1200px) {
+  max-width: 80px;
+
+}
+`
+export const ImageHeart = styled.img.attrs({
+  src: `${heart}`,
+  width:200,
+
+})`
+@media (max-width: 1200px) {
+  max-width: 160px;
+
+}
+`
+export const Biblia = styled.img.attrs({
+  src: `${biblia}`,
+  width:200,
+  
+})`
+@media (max-width: 1200px) {
+  max-width: 160px;
+
+}
+`
+export const CreatedBy = styled.img.attrs({
+  src: `${createdBy}`,
+  width:250,
+})`
+@media (max-width: 1200px) {
+  max-width: 210px;
+}
+`
+export const Organization = styled.div`
+  
 `

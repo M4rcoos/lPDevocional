@@ -1,4 +1,6 @@
 import  * as C from "./AppStyles.tsx"
+import { ButtonLarger } from "./components/ButtonLarger"
+
 
 function App() {
 
@@ -6,9 +8,9 @@ function App() {
     <C.Container>
     <C.Content>
       <C.Header>
-      <img src="src/assets/foguinho.png" width={130} height={130} alt="foguinho" />
-      <div style={{marginBottom:-45}}>
-      <img src="src/assets/raio.png" width={160} height={180} alt="raio" />
+      <C.ImageFire />
+      <div className="flash" style={{marginBottom:-45}}>
+      <C.ImageFlash/>
       </div>
       </C.Header>
       <C.Title>
@@ -16,35 +18,35 @@ function App() {
       </C.Title>
       <C.Footer>
 
-      <img src="src/assets/tres-coracoes.png" width={210} height={145}alt="tres corações" />
-      <img src="src/assets/biblia.png"  width={180} height={170} alt="icone de uma biblia" />
-      <img src="src/assets/createdBy.png"  width={300} height={200}alt="ticket" />
+     <C.ImageHeart/>
+      <C.Biblia/>
+      <C.CreatedBy/>
       </C.Footer>
     </C.Content>
        <C.Enquete>
-       <img src="src/assets/enquete00.png" alt="tres corações"  />
-       <img src="src/assets/enquete01.png" alt="tres corações" />
+       <img src="src/assets/enquete00.png" width={480} alt="Enquete instagram"  />
+       <img src="src/assets/enquete01.png" width={480} alt="Enquete instagram" />
        </C.Enquete>
        <C.TextParabolas>
         <img src="src/assets/imgfirstText-removebg-preview.png" alt="tres corações" />
         <img src="src/assets/description_parabolas-removebg-preview.png" alt="tres corações" />
        </C.TextParabolas>
-       <img src="src/assets/motivos-removebg-preview (1).png" alt="tres corações" />
-
+       <ButtonLarger name="Porquê adquirir um ebook digital?"/>
        <C.Motivos>
        <div>
         <img src="src/assets/01-removebg-preview.png"/>
        </div>
        <div>
-
         <img src="src/assets/02-removebg-preview.png" />
        </div>
-
        <div>
-
         <img src="src/assets/03-removebg-preview.png"/>
        </div>
        </C.Motivos>
+       <C.Organization>
+       <img src="src/assets/space.png"/>
+       <img src="src/assets/03-removebg-preview.png"/>
+       </C.Organization>
     </C.Container>
   )
 }
