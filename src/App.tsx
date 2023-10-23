@@ -25,6 +25,26 @@ function App() {
        <img src="src/assets/enquete00.png" alt="tres corações"  />
        <img src="src/assets/enquete01.png" alt="tres corações" />
        </C.Enquete>
+       <C.TextParabolas>
+        <img src="src/assets/imgfirstText-removebg-preview.png" alt="tres corações" />
+        <img src="src/assets/description_parabolas-removebg-preview.png" alt="tres corações" />
+       </C.TextParabolas>
+       <img src="src/assets/motivos-removebg-preview (1).png" alt="tres corações" />
+
+       <C.Motivos>
+       <div>
+        <img src="src/assets/01-removebg-preview.png"/>
+       </div>
+       <div>
+
+        <img src="src/assets/02-removebg-preview.png" />
+       </div>
+
+       <div>
+
+        <img src="src/assets/03-removebg-preview.png"/>
+       </div>
+       </C.Motivos>
     </C.Container>
   )
 }
