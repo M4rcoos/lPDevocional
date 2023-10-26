@@ -131,5 +131,20 @@ export const CreatedBy = styled.img.attrs({
 }
 `
 export const Organization = styled.div`
+display:flex;
+align-items: center;
+justify-content:center;
+position: relative;
+margin-top:26px;
   
+`
+export const BtnAndImage = styled.div`
+ position: absolute;
+left: -65%;
+`
+export const ContentOrganization = styled.p`
+font-family: 'Poppins', sans-serif;
+font-size: 24px;
+max-width: 880px;
+padding: 12px 24px;
 `
