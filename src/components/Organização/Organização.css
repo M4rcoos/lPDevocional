@@ -38,13 +38,23 @@ section.organizacao .container-organizacao .boxImg img{
 section.organizacao .container-organizacao .boxImg img:nth-child(2){
     transform: scale(1.08);
 }
-section.organizacao .container-organizacao .btnGarantia{
+section.organizacao .container-organizacao .contentGarantia .btnGarantia{
     display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 5rem;
 }
-section.organizacao .container-organizacao .btnGarantia h1{
+section.organizacao .container-organizacao .contentGarantia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section.organizacao .container-organizacao .contentGarantia img{
+    margin-top: 38px;
+    margin-bottom: -38px;
+}
+section.organizacao .container-organizacao .contentGarantia .btnGarantia h1{
    
     color: #fff;
     padding: 1rem 2rem;
