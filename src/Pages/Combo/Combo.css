@@ -1,0 +1,68 @@
+main .container-mainCombo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 24px;
+    box-sizing: content-box;
+}
+main .container-mainCombo .boxText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fd5631;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px black;
+    margin-bottom: 2rem;
+}
+main .container-mainCombo .boxText h1{
+    font-size: 50px;
+    text-align: center;
+}
+main .container-mainCombo .boxText span{
+    text-decoration: line-through;
+    font-size: 45px;
+    margin-top: 1rem;
+    color: rgb(192, 192, 192);
+    text-align: center;
+}
+main .container-mainCombo .boxText div{
+    font-size: 53px;
+    text-align: center;
+}
+main .container-mainCombo .boxText p{
+    font-size: 27px;
+    color: rgb(237, 237, 237);
+    text-align: center;
+}
+main .container-mainCombo .btnCompra{
+    margin: 1rem 0;
+}
+main .container-mainCombo .btnCompra a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    background-color: rgb(16, 129, 16);
+    border-radius: 80px;
+    box-shadow: 1px 1px 10px 1px black;
+    font-size: 30px;
+    transition: .3s;
+    text-align: center;
+}
+main .container-mainCombo .btnCompra a:hover{
+    background-color: rgb(0, 86, 0);
+}
+@media (max-width:540px){
+    main .container-mainCombo .btnCompra a{
+        display: block;
+        font-size: 20px;
+    }
+    main .container-mainCombo .boxText h1{
+        font-size: 30px;
+    }
+}

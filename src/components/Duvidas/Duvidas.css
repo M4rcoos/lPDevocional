@@ -1,0 +1,43 @@
+section.duvidas{
+    width: 100%;
+    padding: 5rem 0;
+    height: auto;
+}
+section.duvidas h1.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 59px;
+    margin-bottom: 3rem;
+}
+section.duvidas .container-duvidas{
+    max-width: 1350px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    padding: 0 24px;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+section.duvidas .container-duvidas img{
+    width: 33vw;
+    
+}
+@media (max-width:1040px){
+    section.duvidas .container-duvidas{
+        flex-direction: column;
+        align-items: center;
+    }
+    section.duvidas .container-duvidas img{
+        width: 50%;
+    }
+   
+}
+@media (max-width:500px){
+    section.duvidas .container-duvidas img{
+        width: 100%;
+    }
+    section.duvidas h1.title{
+        font-size: 45px;
+    }
+}
