@@ -11,48 +11,63 @@ import imgParabola1 from '../assetsPages/imgParabola1.png'
 import imgParabola2 from '../assetsPages/imgParabola2.png'
 import imgParabola3 from '../assetsPages/imgParabola3.png'
 
-export const Combo = () =>{
-    return(
-        <>
-        <main>
-            <div className="container-mainCombo">
+export const Combo = () => {
+  return (
+    <>
+      <main>
+        <div className="container-mainCombo">
 
-                <div className="boxText">
-                    <h1>As parábolas resumidas e ilustradas  + <br /> Templates planner de estudo bíblico + <br />Panorama do Antigo Testamento + <br />Disciplinas biblicas</h1>
+          <div className="boxText">
+            <h1>As parábolas resumidas e ilustradas  + <br /> Templates planner de estudo bíblico + <br />Panorama do Antigo Testamento + <br />Disciplinas biblicas</h1>
 
-                    <span>De R$122,49</span>
-                    <div>2x de R$41,74</div>
+            <span>De R$122,49</span>
+            <div>2x de R$41,74</div>
 
-                    <p>ou á vista por  R$ 80,00</p>
-                </div>
+            <p>ou á vista por  R$ 80,00</p>
+          </div>
+          <section className="organizacao">
+            <div className="container-organizacao">
+              <h1 className="text-title">Parábolas</h1>
+
+              <div className="boxImg" data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                <img src={imgParabola1} alt="" />
+                <img src={imgParabola2} alt="" />
+                <img src={imgParabola3} alt="" />
+              </div>
+              <h1 className="text-title">Antigo testamento</h1>
+
+              <div className="boxImg" data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                <img src={imgAT1} alt="" />
+                <img src={imgAT2} alt="" />
+                <img src={imgAT3} alt="" />
+              </div>
+              <h1 className="text-title">Disciplinas bíblica</h1>
+
+              <div className="boxImg" data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                <img src={imgDisciplina1} alt="" />
+                <img src={imgDisciplina2} alt="" />
+                <img src={imgDisciplina3} alt="" />
+              </div>
+
+             <div style={{display:'flex',alignItems:'center', justifyContent:"center"}}>
+             <div className="btnCompra">
+                <a href="">Quero Adquirir o Combo</a>
+              </div>
+             </div>
+             
 
 
-                <h1 className="parabolas">Parábolas</h1>
-                <div className="containerImgsCarrossel">
-                    
-                    <img src={imgParabola1} alt="Imagem 1" />
-                    <img src={imgParabola2} alt="Imagem 2" />
-                    <img src={imgParabola3} alt="Imagem 3" />
-                  </div>
-
-                <h1 className="disciplinas">Disciplinas Bíblicas</h1>
-                  <div className="containerImgsCarrossel">
-                    <img src={imgDisciplina1} alt="Imagem 1" />
-                    <img src={imgDisciplina2} alt="Imagem 2" />
-                    <img src={imgDisciplina3} alt="Imagem 3" />
-                  </div>
-
-                <h1 className="testamento">Antigo Testamento</h1>
-                  <div className="containerImgsCarrossel">
-                    <img src={imgAT1} alt="Imagem 1" />
-                    <img src={imgAT3} alt="Imagem 2" />
-                    <img src={imgAT2} alt="Imagem 3" />
-                </div>
-                <div className="btnCompra">
-                    <a href="">Quero Adquirir o Combo</a>
-                </div>
             </div>
-        </main>
-        </>
-    )
+          </section>
+
+        </div>
+      </main>
+    </>
+  )
 }
