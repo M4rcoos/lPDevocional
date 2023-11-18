@@ -18,11 +18,14 @@ export const Sobre = () =>{
                 Você pode acessar o material e estudar quando e onde quiser!  Ou imprimir se desejar...
                 "
                 img={imgSobre1}
-                />
+
+             
+               />
                 <Card
                 titulo="Ensino didático"
                 descrição="Por serem desenvolvidos com imagens, desenhos e formas geométricas, os resumos são os materiais mais didáticos para quem quer aprender de verdade"
                 img={imgSobre2}
+              
                 />
                 <Card
                 titulo="Facíl compreenção para os novos na fé"

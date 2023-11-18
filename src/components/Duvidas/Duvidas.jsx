@@ -8,8 +8,12 @@ export const Duvidas = () =>{
         <section className="duvidas" id="duvidas">
             <h1 className="title">Dúvidas Frequentes</h1>
             <div className="container-duvidas">
-                <img src={imgDuvida1} alt="" />
-                <img src={imgDuvida2} alt="" />
+                <img src={imgDuvida1} alt="" data-aos="fade-right"
+data-aos-offset="300"
+data-aos-easing="ease-in-sine"/>
+                <img src={imgDuvida2} alt=""data-aos="fade-left"
+data-aos-offset="300"
+data-aos-easing="ease-in-sine" />
             </div>
         </section>
         </>

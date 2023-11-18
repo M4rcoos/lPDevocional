@@ -50,14 +50,20 @@ export const Materiais = () => {
   
 
       <section className="materiais">
-        <h1 className="title">Adquira nossos materiais 😀</h1>
+        <h1 className="title"  data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">Adquira nossos materiais 😀</h1>
         <div className="container-materiais">
             
 <div className="carousel">
    
 
-    <Slider {...settings}>
-      <div className="Box">
+    <Slider {...settings} 
+   >
+      <div className="Box"
+       data-aos="fade-left"
+       data-aos-offset="300"
+       data-aos-easing="ease-in-sine"
+      >
         <img src={imgParabolaCarousel} alt="" />
         <footer>
         <span>Parábolas Bíblicas</span>
@@ -67,7 +73,10 @@ export const Materiais = () => {
         </footer>
       </div>
 
-      <div className="Box">
+      <div className="Box"
+       data-aos="fade-left"
+       data-aos-offset="300"
+       data-aos-easing="ease-in-sine">
         <img src={imgAntigoTestamentoCarousel} alt="" />
 
         <footer>
@@ -78,7 +87,11 @@ export const Materiais = () => {
         </footer>
       </div>
 
-      <div className="Box">
+      <div className="Box"
+       data-aos="fade-left"
+       data-aos-offset="300"
+       data-aos-easing="ease-in-sine"
+      >
         <img src={imgDisciplinaCarousel} alt="" />
 
         <footer>
@@ -89,7 +102,11 @@ export const Materiais = () => {
         </footer>
       </div>
 
-      <div className="Box">
+      <div className="Box"
+       data-aos="fade-left"
+       data-aos-offset="300"
+       data-aos-easing="ease-in-sine"
+      >
         <img src={imgComboCarousel} alt="" />
 
         <footer>
