@@ -21,7 +21,7 @@ export const Parabola = () =>{
                     <p>chega de deixar sempre para depois e <br /><b>negligenciar</b> sua vida espiritual</p>
                 </div>
                 <div className="btnCompra">
-                    <a href="">Quero Adquirir as Parábolas</a>
+                    <a href="https://pay.hotmart.com/U76768748W?bid=1673372215642">Quero Adquirir as Parábolas</a>
                 </div>
                 
                 </footer>

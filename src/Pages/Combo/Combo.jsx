@@ -57,7 +57,7 @@ export const Combo = () => {
 
              <div style={{display:'flex',alignItems:'center', justifyContent:"center"}}>
              <div className="btnCompra">
-                <a href="">Quero Adquirir o Combo</a>
+                <a href="https://pay.hotmart.com/Y78270774I?checkoutMode=10&bid=1701088770353">Quero Adquirir o Combo</a>
               </div>
              </div>
              

@@ -22,7 +22,7 @@ export const Atestamento = () =>{
                             <li>Quais são as divisões da biblía e mais...</li>
 
                             <div className="btnCompra">
-                                <a href="">Quero Adquirir as Parábolas</a>
+                                <a href="https://pay.hotmart.com/R77793302U?bid=1701088683776">Quero adquirir o A.T</a>
                             </div>
                         </ul>
 

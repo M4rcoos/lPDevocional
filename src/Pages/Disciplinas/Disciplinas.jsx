@@ -22,7 +22,7 @@ export const Disciplina = () =>{
                             <li>Quais são as divisões da biblía e mais...</li>
 
                             <div className="btnCompra">
-                                <a href="">Quero Adquirir as Parábolas</a>
+                                <a href="https://pay.hotmart.com/P81375389G?bid=1701088716249">Quero Adquirir as Disciplina Bíblicas</a>
                             </div>
                         </ul>
 
