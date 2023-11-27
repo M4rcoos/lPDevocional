@@ -25,11 +25,10 @@ export const Organizaçao = () => {
                         <img src={imgOrg3} alt="" />
                     </div>
 
-                    <div className='contentGarantia'>
-
-                       
-                            <img src={garantia} alt="" width={180} height={180} data-aos="flip-down" />
-                    </div>
+                   
+                <div className="btnGarantia">
+                    <h1>Garantia de 7 dias!!!</h1>
+                </div>
 
                 </div>
             </section>
