@@ -6,6 +6,7 @@ import './reset.css'
 import { Organizaçao } from './components/Organização/Organização'
 import { Materiais } from './components/Materiais/Materiais'
 import { Feedback } from './components/Feedback/Feedback'
+import { Profile } from './components/Profile/Profile'
 
 export const App = () =>{
    
@@ -18,6 +19,7 @@ export const App = () =>{
     <Organizaçao/>
     <Materiais/>
     <Feedback/>
+    <Profile/>
     </>
     )
 }

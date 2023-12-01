@@ -13,13 +13,19 @@ export const Disciplina = () =>{
             <div className="boxInformation">
                     <div className="text">
                         <ul>
-                            <li>Entenda de uma vez a história de Israel</li>
-                            <li>Como Surgiram os Patriarcas, quem eles são</li>
-                            <li>A divisão das 12 tribos de Israel</li>
-                            <li>O período da monarquia</li>
-                            <li>Reino unido e dividido</li>
-                            <li>O que aconteceu no período de Juízes</li>
-                            <li>Quais são as divisões da biblía e mais...</li>
+                            <li>Oração</li>
+                            <li>Jejum</li>
+                            <li>batismo nas águas</li>
+                            <li>Santa ceia</li>
+                            <li>Adoração</li>
+                            <li>Plano de salvação</li>
+                            <li>Os 5 ministério</li>
+                            <li>Dons do espírito</li>
+                            <li>Maldição hereditária</li>
+                            <li>Fruto do espírito</li>
+                            <li>Pecado</li>
+                            <li>Idolatria</li>
+                            <li>A morte</li>
 
                             <div className="btnCompra">
                                 <a href="https://pay.hotmart.com/P81375389G?bid=1701088716249">Quero Adquirir as Disciplina Bíblicas</a>

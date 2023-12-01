@@ -1,0 +1,43 @@
+section.profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section.profile .container-profile{
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+}
+section.profile .container-profile .boxText{
+  max-width: 800px;
+}
+section.profile .container-profile .boxText h1{
+  font-size: 59px;
+  line-height: 65px;
+}
+section.profile .container-profile .boxText h1 span{
+  color: #f62d00;
+}
+section.profile .container-profile .boxText p{
+  font-size: 23px;
+}
+
+@media (max-width:820px) {
+  section.profile .container-profile{
+      flex-direction: column;
+      justify-content: center;
+  }
+  section.profile .container-profile .boxText{
+      width: 100%;
+      padding: 0 2rem;
+  }
+}
+@media (max-width:500px){
+  section.profile .container-profile img{
+      width: 80%;
+  }
+  section.profile .container-profile .boxText h1{
+      font-size: 45px;
+  }
+}
