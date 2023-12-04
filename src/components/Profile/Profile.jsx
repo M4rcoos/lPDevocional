@@ -8,7 +8,7 @@ export const Profile = () => {
       <section className='profile' id='profile'>
 
         <div className='contenti-mage' >
-        <img src={profile} alt=""
+        <img src={profile} alt="imagem do perfil"
           />
         </div>
      
