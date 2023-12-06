@@ -90,11 +90,7 @@ main .container-mainCombo .btnCompra a:hover{
         width: 200px;
     }
 }
-<<<<<<< HEAD
 @media (max-width:1245px){
-=======
-@media (max-width:1240px){
->>>>>>> main
     main .container-mainCombo .boxImg{
         padding: 2rem 0;
         overflow-x: auto;
