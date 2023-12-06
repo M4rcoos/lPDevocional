@@ -8,9 +8,8 @@ export const Profile = () => {
       <section className='profile' id='profile'>
 
         <div className='contenti-mage' >
-        <img src={profile} alt="" data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine" />
+        <img src={profile} alt=""
+          />
         </div>
      
         <div className="container-profile">

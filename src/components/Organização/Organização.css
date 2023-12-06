@@ -52,12 +52,15 @@ section.organizacao .container-organizacao .btnGarantia h1{
     border-radius: 80px;
     border: 2px solid black;
 }
-    @media (max-width:1240px){
+
+@media (max-width:1128px){
     section.organizacao .container-organizacao .boxImg{
         padding: 2rem 0;
         overflow-x: auto;
         justify-content: stretch    ;
     }
+}
+    @media (max-width:1240px){
     section.organizacao .container-organizacao .boxImg img:nth-child(2){
         transform: scale(1);
     }

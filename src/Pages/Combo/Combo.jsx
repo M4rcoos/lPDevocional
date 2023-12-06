@@ -29,7 +29,7 @@ export const Combo = () => {
             <div className="container-organizacao">
               <h1 className="text-title">Parábolas</h1>
 
-              <div className="boxImg" data-aos="fade-left"
+              <div className="boxImg" data-aos="fade-up"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine">
                 <img src={imgParabola1} alt="" />
@@ -38,7 +38,7 @@ export const Combo = () => {
               </div>
               <h1 className="text-title">Antigo testamento</h1>
 
-              <div className="boxImg" data-aos="fade-left"
+              <div className="boxImg" data-aos="fade-up"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine">
                 <img src={imgAT1} alt="" />
@@ -47,7 +47,7 @@ export const Combo = () => {
               </div>
               <h1 className="text-title">Disciplinas bíblica</h1>
 
-              <div className="boxImg" data-aos="fade-left"
+              <div className="boxImg" data-aos="fade-up"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine">
                 <img src={imgDisciplina1} alt="" />
