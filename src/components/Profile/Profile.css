@@ -4,12 +4,15 @@ section.profile{
   justify-content: center;
   flex-wrap: wrap;
 }
+<<<<<<< HEAD
 section.profile img{
   display: flex;
   justify-content: center;
   width: 100%;
   
 }
+=======
+>>>>>>> main
 section.profile .container-profile{
   box-sizing: content-box;
   display: flex;
@@ -41,7 +44,11 @@ section.profile .container-profile .boxText p{
 }
 @media (max-width:500px){
   section.profile .container-profile img{
+<<<<<<< HEAD
       
+=======
+      width: 80%;
+>>>>>>> main
   }
   section.profile .container-profile .boxText h1{
       font-size: 45px;

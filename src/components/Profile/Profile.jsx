@@ -8,8 +8,14 @@ export const Profile = () => {
       <section className='profile' id='profile'>
 
         <div className='contenti-mage' >
+<<<<<<< HEAD
         <img src={profile} alt=""
           />
+=======
+        <img src={profile} alt="" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine" />
+>>>>>>> main
         </div>
      
         <div className="container-profile">
