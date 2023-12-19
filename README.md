@@ -1,8 +1,20 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto React consiste em uma aplicação web dedicada ao estudo de partes específicas da Bíblia para clientes interessados em aprofundar seu conhecimento religioso. A aplicação oferece uma interface intuitiva e recursos interativos para tornar a experiência de estudo envolvente e educativa.
 
-Currently, two official plugins are available:
+# Seleção Personalizada:
+Permite aos usuários escolherem partes específicas da Bíblia para estudo, com uma navegação simplificada.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Pré-requisitos
+Certifique-se de ter o Node.js instalado na sua máquina.
+
+Clone este repositório
+
+Navegue até o diretório do projeto e instale as dependências com: npm install
+
+# Como Iniciar a Aplicação
+No diretório do projeto, execute: npm run dev.
+
+# Tecnologias Utilizadas
+React.js
+HTML5/CSS3

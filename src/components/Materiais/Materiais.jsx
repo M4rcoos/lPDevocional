@@ -7,6 +7,8 @@ import imgDisciplinaCarousel from '../assets/imgDisciplinaCarousel.jpg'
 import imgAntigoTestamentoCarousel from '../assets/antigoTestamentoCarousel.jpg'
 import imgParabolaCarousel from '../assets/imgParabolaCarousel.jpg'
 import imgComboCarousel from '../assets/imgComboCarousel.jpg'
+import imgComboPanoramas from '../assets/comboPanoramas.jpeg'
+import imgNovoTestamento from '../assets/novoTestamento.jpeg'
 
 export const Materiais = () => {
   var settings = {
@@ -59,19 +61,6 @@ export const Materiais = () => {
 
     <Slider {...settings} 
    >
-      <div className="Box"
-       data-aos="fade-left"
-       data-aos-offset="300"
-       data-aos-easing="ease-in-sine"
-      >
-        <img src={imgParabolaCarousel} alt="" />
-        <footer>
-        <span>Parábolas Bíblicas</span>
-        <div className="btnCompra">
-          <Link to="/Parabolas" target="_blank">Saiba Mais</Link>
-        </div>
-        </footer>
-      </div>
 
       <div className="Box"
        data-aos="fade-left"
@@ -83,6 +72,34 @@ export const Materiais = () => {
         <span>Antigo Testamento</span>
         <div className="btnCompra">
           <Link to="/aTestamento" target="_blank">Saiba Mais</Link>
+        </div>
+        </footer>
+      </div>
+
+      <div className="Box"
+       data-aos="fade-left"
+       data-aos-offset="300"
+       data-aos-easing="ease-in-sine">
+        <img src={imgNovoTestamento} alt="" />
+
+        <footer>
+        <span>Novo Testamento</span>
+        <div className="btnCompra">
+          <Link to="/nTestamento" target="_blank">Saiba Mais</Link>
+        </div>
+        </footer>
+      </div>
+
+      <div className="Box"
+       data-aos="fade-left"
+       data-aos-offset="300"
+       data-aos-easing="ease-in-sine"
+      >
+        <img src={imgParabolaCarousel} alt="" />
+        <footer>
+        <span>Parábolas Bíblicas</span>
+        <div className="btnCompra">
+          <Link to="/Parabolas" target="_blank">Saiba Mais</Link>
         </div>
         </footer>
       </div>
@@ -117,6 +134,20 @@ export const Materiais = () => {
         </footer>
       </div>
 
+      <div className="Box"
+       data-aos="fade-left"
+       data-aos-offset="300"
+       data-aos-easing="ease-in-sine"
+      >
+        <img src={imgComboPanoramas} alt="" />
+
+        <footer>
+        <span>Combo Panoramas</span>
+        <div className="btnCompra">
+          <Link to="/comboPanorama" target="_blank">Saiba Mais</Link>
+        </div>
+        </footer>
+      </div>
     
     </Slider>
     </div>
