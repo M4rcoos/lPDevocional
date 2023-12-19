@@ -9,7 +9,7 @@ export const Atestamento = () =>{
         <>
         <main>
             <div className="container-main">
-                <h1 className="title">Você <span>nunca mais</span> vai parar de ler e <span className='colorGreen'>desistir do antigo testamento</span> porque não está entendendo nada</h1>
+                <h1 className="title">Você <span>nunca Mais</span> vai parar de ler e <span className='colorGreen'>desistir do antigo testamento</span> porque não está entendendo nada</h1>
                 <div className="boxInformation">
                     <div className="text">
                         <ul>
