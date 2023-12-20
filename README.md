@@ -16,5 +16,5 @@ Navegue até o diretório do projeto e instale as dependências com: npm install
 No diretório do projeto, execute: npm run dev.
 
 # Tecnologias Utilizadas
-React.js
+React.js + Vite
 HTML5/CSS3
