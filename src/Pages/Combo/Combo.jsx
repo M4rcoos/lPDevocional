@@ -34,16 +34,6 @@ export const Combo = () => {
                 </div>
 
         <section className="organizacao">
-
-          <div className="boxText">
-            <h1>As parábolas resumidas e ilustradas  + <br /> Templates planner de estudo bíblico + <br />Panorama do Antigo Testamento + <br />Disciplinas biblicas + <br />Panorama do Novo testamento</h1>
-
-            <span>De R$142,49</span>
-            <div>2x de R$47,50</div>
-
-            <p>ou á vista por  R$ 95,00</p>
-          </div>
-          <section className="organizacao">
             <div className="container-organizacao">
 
               <div className="boxImg" data-aos="fade-up"
