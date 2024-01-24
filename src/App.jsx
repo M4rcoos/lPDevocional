@@ -14,11 +14,11 @@ export const App = () =>{
         <>
     <Inicio/>
     <Sobre/>
-    <Duvidas/>
+    <Feedback/>
     <Bonus/>
     <Organizaçao/>
     <Materiais/>
-    <Feedback/>
+    <Duvidas/>
     <Profile/>
     </>
     )

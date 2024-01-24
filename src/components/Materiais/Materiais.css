@@ -125,6 +125,53 @@ section.materiais .container-materiais .subTitle{
     background-color: green;
     color: #fff;
 }
+
+.preco-de {
+    color: red; /* Cor vermelha */
+}
+
+/* Estilo para o valor original (com risco) */
+.preco-de >.valor-original {
+    text-decoration: line-through; 
+    color: red
+    /* Adiciona um risco no texto */
+}
+
+/* Estilo para o botão Saiba Mais */
+.saiba-mais {
+    /* Adicione estilos conforme necessário */
+}
+
+/* Estilo para o texto "Por" depois do botão Saiba Mais */
+.preco-por {
+    color: green; /* Cor verde */
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+/* Estilo para o valor com desconto */
+.preco-por > .valor-desconto {
+    color: green; /* Cor verde */
+    padding: 0;
+
+
+}
+.preco-por > .valor-desconto > .qntd-parcela {
+    font-size: 12px;
+    font-weight: 700;
+    color: green;
+    text-align: start;
+    padding: 0;
+
+}
+.mais-vendido-etiqueta {
+    background-color: rgb(44, 229, 44); /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 8px; /* Espaçamento interno */
+    text-align: start; /* Alinhamento à esquerda */
+    border-radius: 8px;
+    margin-left: -100px;
+}
 .slick-slide div{
     margin: .5rem;
     transform: translateX(-5px);
