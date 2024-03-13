@@ -168,7 +168,7 @@ section.materiais .container-materiais .subTitle{
     background-color: rgb(44, 229, 44); /* Cor de fundo verde */
     color: white; /* Cor do texto branco */
     padding: 8px; /* Espaçamento interno */
-    text-align: center; /* Alinhamento à esquerda */
+    text-align: center;
     border-radius: 8px;
     margin-left: 1.2rem !important;
 }
