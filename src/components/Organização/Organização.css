@@ -54,7 +54,7 @@ section.organizacao .container-organizacao .btnGarantia h1{
 }
 @media (max-width:760px){
     section.orgMain .container-organizacao .boxImg{
-        justify-content: stretch;
+        justify-content: stretch !important;
     }
 }
 
