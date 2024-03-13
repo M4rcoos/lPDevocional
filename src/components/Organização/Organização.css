@@ -46,11 +46,11 @@ section.organizacao .container-organizacao .btnGarantia{
 }
 section.organizacao .container-organizacao .btnGarantia h1{
    
-    color: #fff;
+    color: green;
     padding: 1rem 2rem;
-    background-color: green;
+    background-color: #fff;
     border-radius: 80px;
-    border: 2px solid black;
+    border: 2px solid green;
 }
 @media (max-width:760px){
     section.orgMain .container-organizacao .boxImg{
