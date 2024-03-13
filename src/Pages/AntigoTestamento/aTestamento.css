@@ -23,6 +23,7 @@ main .container-main .boxInformation{
     align-items: center;
     justify-content: space-around;
     margin-top: 5rem;
+    padding: 0 24px;
 }
 main .container-main .boxInformation .text ul li{
     font-size: 25px;
