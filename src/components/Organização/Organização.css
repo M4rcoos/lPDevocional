@@ -52,6 +52,11 @@ section.organizacao .container-organizacao .btnGarantia h1{
     border-radius: 80px;
     border: 2px solid black;
 }
+@media (max-width:760px){
+    section.organizacao .container-organizacao .boxImg{
+        justify-content: stretch;
+    }
+}
 
 @media (max-width:1128px){
     section.orgMain .container-organizacao .boxImg{
