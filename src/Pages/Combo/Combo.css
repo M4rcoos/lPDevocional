@@ -22,6 +22,7 @@ main .container-mainCombo .boxInformation{
     align-items: center;
     margin-top: 5rem;
     width: 100%;
+    padding: 0 24px;
 }
 main .container-mainCombo .boxInformation ul h3{
     font-size: 35px;
