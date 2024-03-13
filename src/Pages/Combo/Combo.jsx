@@ -32,8 +32,8 @@ export const Combo = () => {
                         <img src={imgCombo} alt="" />
                     </div>
                 </div>
-
-        <section className="organizacao">
+{/* adicionado 2 classes pois havia um conflito delas, sendo usada em outra estrutura */}
+        <section className="organizacao organizacaoCombo"> 
             <div className="container-organizacao">
 
               <div className="boxImg" data-aos="fade-up"
@@ -47,13 +47,6 @@ export const Combo = () => {
               </div>
 
 
-{/* 
-             <div style={{display:'flex',alignItems:'center', justifyContent:"center"}}>
-             <div className="btnCompra">
-                <a href="https://pay.hotmart.com/Y78270774I?checkoutMode=10&bid=1701088770353">Quero Adquirir o Combo</a>
-              </div>
-             </div> */}
-             
 
 
             </div>
