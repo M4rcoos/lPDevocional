@@ -151,8 +151,8 @@ section.organizacao .container-organizacao .contentGarantia .btnGarantia h1{
     border-radius: 80px;
     border: 2px solid black;
 }
-@media (max-width:1240px){
-    section.organizacao .container-organizacao .boxImg{
+@media (max-width:1250px){
+    section.organizacaoCombo .container-organizacao .boxImg{
         padding: 2rem 0;
         overflow-x: auto;
         justify-content: stretch;
@@ -169,9 +169,7 @@ section.organizacao .container-organizacao .contentGarantia .btnGarantia h1{
     main .container-mainCombo .btnCompra a{
         font-size: 20px;
     }
-    main .container-mainCombo .boxText p{
-       
-    }
+    
     main .container-mainCombo .boxText h1{
         font-size: 30px;
     }
