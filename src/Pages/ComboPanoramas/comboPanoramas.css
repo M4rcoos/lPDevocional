@@ -19,6 +19,7 @@ main .container-mainComboPanorama .boxInformation{
     justify-content: space-around;
     margin-top: 5rem;
     width: 100%;
+    padding: 0 24px;
 }
 main .container-mainComboPanorama .boxInformation .text ul h3{
     font-size: 35px;
