@@ -7,7 +7,7 @@ import imgOrg3 from '../assets/imgOrg3.jpg'
 export const Organizaçao = () => {
     return (
         <>
-            <section className="organizacao">
+            <section className="organizacao orgMain">
                 <h1 className="title" data-aos="fade-up"
                     data-aos-anchor-placement="center-bottom">Organize seus estudos!!</h1>
                 <div className="container-organizacao">
